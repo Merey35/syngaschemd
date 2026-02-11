@@ -20,7 +20,7 @@ h1 {
 }
 
 body {
-    background-color: var(--bg-main);
+    background-color: var(--bg-section);
     color: var(--text);
 }
 
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .section {
-    background-color: #F7DB91;
+    background-color: var(--bg-main);
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 12px;
@@ -108,3 +108,4 @@ nav a:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(69, 107, 128, 0.25);
 }
+
