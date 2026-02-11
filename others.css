@@ -109,3 +109,75 @@ nav a:hover {
     box-shadow: 0 12px 25px rgba(69, 107, 128, 0.25);
 }
 
+.ba-wrapper {
+  --position: 50%;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.ba-image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 62.5%; /* Aspect Ratio */
+}
+.ba-img-base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ba-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--position);
+  height: 100%;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+}
+.ba-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  width: 100vw; /* Ensure image does not squish */
+  max-width: 700px; /* Match container max-width */
+}
+.ba-range {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: ew-resize;
+  z-index: 20;
+  margin: 0;
+}
+.ba-handle {
+  position: absolute;
+  top: 50%;
+  left: var(--position);
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+  pointer-events: none;
+}
+
