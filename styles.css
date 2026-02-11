@@ -3,6 +3,7 @@ body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: #FFFDCE;
   margin: 0;
+  text-decoration: none;
 }
 
 /* header */
@@ -92,3 +93,4 @@ h1 {
   font-family: 'Friz Quadrata Std', sans-serif;
   text-align: center;                                         
 }
+
