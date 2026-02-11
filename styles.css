@@ -31,14 +31,17 @@ body {
   color: white;
   z-index: 2;
   position: relative;
+  text-decoration: none;
 }
 
 .head-content p {
     color: #f7f9ff;
+  text-decoration: none;
 }
 
 .head-content h1 {
     color: #9BC264;
+  text-decoration: none;
 }
 
 .spacer {
@@ -81,16 +84,20 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  text-decoration: none;
 }
  
 p { 
     color: #456b80; 
     font-family: 'Eyja Unlicensed Trial', sans-serif;
+  text-decoration: none;
 }
 
 h1 {
   color: #F075AE;
   font-family: 'Friz Quadrata Std', sans-serif;
-  text-align: center;                                         
+  text-align: center;               
+  text-decoration: none;
 }
+
 
