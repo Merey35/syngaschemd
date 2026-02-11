@@ -206,15 +206,13 @@ nav a:hover {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  color: white;
-  font-weight: 800;
-  border: 4px solid #fff;
-  opacity: 0.9;
+  font-size: 0;
+  color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .item:nth-child(1) { background-image: url("images/imos1.jpeg"); }
 .item:nth-child(2) { background-image: url("images/imos2.jpeg"); }
 .item:nth-child(3) { background-image: url("images/imos3.jpeg"); }
@@ -274,6 +272,7 @@ nav a:hover {
   pointer-events: none;
   z-index: 10;
 }
+
 
 
 
