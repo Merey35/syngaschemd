@@ -254,7 +254,7 @@ nav a:hover {
   margin: 0 auto;
 }
 #myimage {
-  width: 100%;
+  width: 150%;
   height: auto;
   display: block;
   border-radius: 8px;
@@ -274,5 +274,6 @@ nav a:hover {
   pointer-events: none;
   z-index: 10;
 }
+
 
 
