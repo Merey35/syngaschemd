@@ -257,6 +257,9 @@ nav a:hover {
   display: block;
   border-radius: 8px;
   cursor: crosshair;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 .img-magnifier-glass {
   position: absolute;
@@ -272,6 +275,7 @@ nav a:hover {
   pointer-events: none;
   z-index: 10;
 }
+
 
 
 
