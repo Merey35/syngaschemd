@@ -245,22 +245,23 @@ nav a:hover {
 }
 
 .img-magnifier-container {
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   position: relative;
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+  text-align: center;
 }
+
 #myimage {
-  width: 150%;
+  width: 100%;
+  max-width: 350px; 
   height: auto;
-  display: block;
   border-radius: 8px;
   cursor: crosshair;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
+
 .img-magnifier-glass {
   position: absolute;
   border: 3px solid #fff;
@@ -275,6 +276,7 @@ nav a:hover {
   pointer-events: none;
   z-index: 10;
 }
+
 
 
 
