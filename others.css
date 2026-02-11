@@ -245,3 +245,32 @@ nav a:hover {
   transform: scale(1.05);
   background: #000;
 }
+
+.img-magnifier-container {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#myimage {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  cursor: crosshair;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  display: none;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  pointer-events: none;
+  z-index: 10;
+}
