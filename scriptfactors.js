@@ -2,7 +2,7 @@ const carousel = document.getElementById("carousel");
 const items = document.querySelectorAll(".item");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
-const radius = 120;
+const radius = 350;
 let currAngle = 0;
 
 const angleStep = 360 / items.length;
