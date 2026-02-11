@@ -1,0 +1,94 @@
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #FFFDCE;
+  margin: 0;
+}
+
+/* header */
+.head {
+  height: 100vh;
+  background-image: url("images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.head::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 17, 2, 0.626);
+}
+
+.head-content {
+  text-align: center;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.head-content p {
+    color: #f7f9ff;
+}
+
+.head-content h1 {
+    color: #9BC264;
+}
+
+.spacer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  justify-content: center;
+}
+
+.reveal-card {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  opacity: 0;
+  scale: 0.8;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry 10% cover 30%;
+  margin: 0 auto;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.count {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #F7DB91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+ 
+p { 
+    color: #456b80; 
+    font-family: 'Eyja Unlicensed Trial', sans-serif;
+}
+
+h1 {
+  color: #F075AE;
+  font-family: 'Friz Quadrata Std', sans-serif;
+  text-align: center;                                         
+}
