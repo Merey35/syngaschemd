@@ -277,6 +277,12 @@ nav a:hover {
   z-index: 10;
 }
 
+img {
+  width:75%;
+  height: auto;
+}
+
+
 
 
 
